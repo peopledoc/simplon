@@ -1,0 +1,12 @@
+Pour utiliser le tp : 'Test MissCode.ipynb'
+
+/ ! \ Important :  dans un environnement virtuel (venv ou conda)
+
+```
+virtualenv jupyter
+jupyter/bin/python --version #python3+
+source jupyter/bin/activate
+pip install jupyter
+jupyter notebook
+```
+
