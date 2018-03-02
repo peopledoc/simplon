@@ -10,3 +10,19 @@ pip install jupyter
 jupyter notebook
 ```
 
+**Avec conda (installation Anaconda conseillée sur Windows):**
+
+Les instructions pour installer Anaconda sont [là](https://docs.anaconda.com/anaconda/install/).
+
+Dans la console (console Anaconda ou terminal), à l'endroit où vous souhaitez copier le tp :
+
+```
+git clone https://github.com/peopledoc/simplon.git
+cd simplon
+conda create -n tp python=3.6 jupyter
+(source) activate tp
+jupyter notebook
+```
+
+Les environnements conda sont activés par `activate nom_de_mon_env` sous Windows, et `source activate nom_de_mon_env`
+sous Linux, attention.
